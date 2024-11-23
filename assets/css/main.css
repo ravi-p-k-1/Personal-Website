@@ -2761,6 +2761,46 @@ input, select, textarea {
 			align-items: stretch;
 			margin: 5px;
 		}
+
+
+/* Education */
+		#education > .row > .bar > .edcol {
+			width: 2%;
+			height: 100%;
+			margin-right: 10px;
+			transition: 0.5s;
+			background-color: #a2a2a2;
+		}
+
+		#education > .row > .bar:hover > .edcol {
+			width: 2%;
+			height: 100%;
+			margin-right: 10px;
+			background-color: #49bf9d;
+		}
+
+		#education > .row > .bar > .edcol:hover {
+			background-color: #49bf9d;
+		}
+
+		#education > .row > .bar > .edinfo {
+			display: flex;
+			justify-content: space-between;
+			width: 96%;
+		}
+
+		#education > .row > .bar {
+			
+			display: flex;
+			flex-wrap: wrap;
+			box-sizing: border-box;
+			align-items: stretch;
+			margin: 5px;
+		}
+
+		#education > .row > .bar > .edinfo > .edcardl > * {
+			margin-bottom: 10px;
+		}
 		
 
 /* Poptrox */
