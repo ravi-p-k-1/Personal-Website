@@ -2726,6 +2726,41 @@ input, select, textarea {
 		#skills i:hover {
 			color: #49bf9d;
 		}
+
+/* Experience */
+		#experience > .row > .bar > .expcol {
+			width: 2%;
+			height: 100%;
+			margin-right: 10px;
+			transition: 0.5s;
+			background-color: #a2a2a2;
+		}
+		
+		#experience > .row > .bar:hover > .expcol {
+			width: 2%;
+			height: 100%;
+			margin-right: 10px;
+			background-color: #49bf9d;
+		}
+		
+		#experience > .row > .bar > .expcol:hover {
+			background-color: #49bf9d;
+		}
+
+		#experience > .row > .bar > .expinfo {
+			display: flex;
+			justify-content: space-between;
+			width: 96%;
+		}
+
+		#experience > .row > .bar {
+			
+			display: flex;
+			flex-wrap: wrap;
+			box-sizing: border-box;
+			align-items: stretch;
+			margin: 5px;
+		}
 		
 
 /* Poptrox */
