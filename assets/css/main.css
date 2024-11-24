@@ -2774,7 +2774,6 @@ input, select, textarea {
 		#education > .row > .bar:hover > .edcol {
 			width: 2%;
 			height: 100%;
-			margin-right: 10px;
 			background-color: #49bf9d;
 		}
 
@@ -3225,19 +3224,23 @@ input, select, textarea {
 		/* experience */
 		#experience > .row > .bar > .expinfo {
 			display: flex;
-			/* flex-direction: column; */
-			width: 80%;
+			width: 96%;
 			padding-left: 5px;
 		}
 
 		#experience > .row > .bar > .expcol {
 			margin-right: 0px;
 		}
-
-		#experience > .row > .bar {
+		
+		/* education */
+		#education > .row > .bar > .edinfo {
 			display: flex;
-			flex-direction: row;
-			margin: 5px;
+			width: 96%;
+			padding-left: 5px;
+		}
+
+		#education > .row > .bar > .edcol {
+			margin-right: 0px;
 		}
 
 		/* Basic */
@@ -3322,18 +3325,24 @@ input, select, textarea {
 		#experience > .row > .bar > .expinfo {
 			display: flex;
 			/* flex-direction: column; */
-			width: 80%;
+			width: 96%;
 			padding-left: 5px;
 		}
 
 		#experience > .row > .bar > .expcol {
 			margin-right: 0px;
 		}
-
-		#experience > .row > .bar {
+		
+		/* education */
+		#education > .row > .bar > .edinfo {
 			display: flex;
-			flex-direction: row;
-			margin: 5px;
+			/* flex-direction: column; */
+			width: 96%;
+			padding-left: 5px;
+		}
+
+		#education > .row > .bar > .edcol {
+			margin-right: 0px;
 		}
 
 		/* Header */
