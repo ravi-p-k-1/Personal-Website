@@ -2739,7 +2739,6 @@ input, select, textarea {
 		#experience > .row > .bar:hover > .expcol {
 			width: 2%;
 			height: 100%;
-			margin-right: 10px;
 			background-color: #49bf9d;
 		}
 		
@@ -3222,6 +3221,24 @@ input, select, textarea {
 /* Small */
 
 	@media screen and (max-width: 736px) {
+	
+		/* experience */
+		#experience > .row > .bar > .expinfo {
+			display: flex;
+			/* flex-direction: column; */
+			width: 80%;
+			padding-left: 5px;
+		}
+
+		#experience > .row > .bar > .expcol {
+			margin-right: 0px;
+		}
+
+		#experience > .row > .bar {
+			display: flex;
+			flex-direction: row;
+			margin: 5px;
+		}
 
 		/* Basic */
 
@@ -3300,6 +3317,24 @@ input, select, textarea {
 /* XSmall */
 
 	@media screen and (max-width: 480px) {
+
+		/* experience */
+		#experience > .row > .bar > .expinfo {
+			display: flex;
+			/* flex-direction: column; */
+			width: 80%;
+			padding-left: 5px;
+		}
+
+		#experience > .row > .bar > .expcol {
+			margin-right: 0px;
+		}
+
+		#experience > .row > .bar {
+			display: flex;
+			flex-direction: row;
+			margin: 5px;
+		}
 
 		/* Header */
 
