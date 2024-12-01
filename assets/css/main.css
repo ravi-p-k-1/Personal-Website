@@ -2799,6 +2799,14 @@ input, select, textarea {
 		#education > .row > .bar > .edinfo > .edcardl > * {
 			margin-bottom: 10px;
 		}
+
+		/* Projects */
+
+		#projects > .row > article > a > img{
+			border: 5px;
+			border-color: #787878; 
+			border-style: solid;
+		}
 		
 
 /* Poptrox */
